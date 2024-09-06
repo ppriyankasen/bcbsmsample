@@ -1,7 +1,6 @@
 import { Component, inject } from '@angular/core';
 
 import { DomSanitizer } from '@angular/platform-browser';
-import { SafeService } from './safe.service';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +12,6 @@ export class AppComponent {
   public labelText = '<b>Test</b><br />Line 2';
 
   constructor(
-    public safeHtmlService: SafeService
   ) {
 
   }
