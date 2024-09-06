@@ -1,0 +1,52 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Ionic CSS Variables **/
+:root {
+
+  /** primary **/
+  --ion-color-primary: #4581d0;
+
+  /** tertiary **/
+  --ion-color-tertiary: #80b92e;
+  --ion-color-tertiary-rgb: 99, 186, 60;
+  --ion-color-tertiary-shade: #80b92e;
+  --ion-color-tertiary-tint: #80b92e;
+
+  /** success **/
+  --ion-color-success: #80b92e;
+  --ion-color-success-shade: #80b92e;
+  --ion-color-success-tint: #80b92e;
+
+  /** danger **/
+  --ion-color-danger: #d73e00;
+
+  /** dark **/
+  --ion-color-dark: #262626;
+
+  /** medium **/
+  --ion-color-medium: #666666;
+
+  /** light **/
+  --ion-color-light: #cccccc;
+
+  /** mid **/
+  --ion-color-mid: #8b8b8b;
+  --ion-color-mid-rgb: 152, 154, 162;
+  --ion-color-mid-contrast: #ffffff;
+  --ion-color-mid-contrast-rgb: 255, 255, 255;
+  --ion-color-mid-shade: #86888f;
+  --ion-color-mid-tint: #a2a4ab;
+
+  /** white **/
+  --ion-color-white: #ffffff;
+  --ion-color-white-rgb: 244, 244, 244;
+  --ion-color-white-contrast: #000000;
+  --ion-color-white-contrast-rgb: 0, 0, 0;
+  --ion-color-white-shade: #d7d8da;
+  --ion-color-white-tint: #f5f6f9;
+
+  --item-highlight {
+    background: none !important;
+  }
+}
